@@ -12,6 +12,15 @@
         <servlet-name>HelloWorld</servlet-name>
         <url-pattern>/hello</url-pattern>
     </servlet-mapping>
+    
+    <servlet>
+        <servlet-name>UserPage</servlet-name>
+        <servlet-class>pl.orlowski.sebastian.UserPage</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>UserPage</servlet-name>
+        <url-pattern>/userpage</url-pattern>
+    </servlet-mapping>
 
     <servlet>
         <servlet-name>Database</servlet-name>
